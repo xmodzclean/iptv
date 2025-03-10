@@ -1,7 +1,85 @@
 
 <!doctype html>
 <html lang="en-US">
+	
 <head>
+		<div class="google-translate-container">
+			<div id="google_translate_element"></div>
+		</div>
+	<script type="text/javascript">
+		// Function to initialize Google Translate based on the user's browser language
+		function setPageLanguageBasedOnBrowser() {
+			const userLang = navigator.language || navigator.userLanguage; // Get browser language
+			const langCode = userLang.split('-')[0]; // Extract language code (e.g., 'en' from 'en-US')
+	
+			const supportedLanguages = ['en', 'es', 'fr', 'de', 'ar']; // Supported languages
+			const defaultLang = 'en'; // Default language
+	
+			// If the user's language is supported, use it; otherwise, fall back to default language
+			const selectedLang = supportedLanguages.includes(langCode) ? langCode : defaultLang;
+	
+			// Initialize the Google Translate element with the selected language
+			new google.translate.TranslateElement({
+				pageLanguage: selectedLang, // Set initial page language
+				includedLanguages: supportedLanguages.join(','), // Languages available in the dropdown
+				layout: google.translate.TranslateElement.InlineLayout.SIMPLE // Simple layout
+			}, 'google_translate_element');
+		}
+	
+		// Load the language detection and translation initialization when the page is fully loaded
+		window.onload = setPageLanguageBasedOnBrowser;
+	</script>
+	</body>
+	
+		<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+		<style>
+			/* Custom container for the Google Translate widget */
+			#google_translate_element {
+				display: inline-block;
+				padding: 5px;
+				background-color: #000000;
+				border-radius: 5px;
+				border: 1px solid #000000;
+				margin: 10px 0;
+			}
+			/* Hide the Google Translate logo */
+#google_translate_element .goog-te-gadget-icon {
+    display: none !important;
+}
+
+			/* Style the dropdown language selector */
+			.goog-te-combo {
+				font-family: Arial, sans-serif;
+				font-size: 14px;
+				padding: 5px;
+				border-radius: 5px;
+				border: 1px solid #000000;
+				background-color: #000000;
+			}
+	
+			/* Style the Google Translate dropdown when hovered */
+			.goog-te-combo:hover {
+				border-color: #000000;
+				cursor: pointer;
+			}
+	
+			/* Customize the Google Translate widget's appearance */
+			.goog-te-menu-value {
+				font-size: 14px;
+				color: #ff0000;
+				padding: 5px;
+			}
+	
+			/* Position the widget at the top-right corner */
+			.google-translate-container {
+				position: absolute;
+				top: 10px;
+				right: 10px;
+				z-index: 9999;
+			}
+		</style>
+	
+	
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
@@ -214,7 +292,7 @@ var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":
 				</div>
 				<div class="elementor-element elementor-element-33a749c1 elementor-invisible elementor-widget elementor-widget-heading" data-id="33a749c1" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">IZMA 3NDO KBIRA</h2>		</div>
+			<h2 class="elementor-heading-title elementor-size-default">Simplify Your Streaming Experience</h2>		</div>
 				</div>
 				<div class="elementor-element elementor-element-237d5b5d elementor-invisible elementor-widget elementor-widget-text-editor" data-id="237d5b5d" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -402,7 +480,7 @@ var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":
 									<div class="elementor-price-table__original-price elementor-typo-excluded">
 						<span class="elementor-price-table__currency">&#036;</span>12					</div>
 								<span class="elementor-price-table__currency">&#036;</span>									<span class="elementor-price-table__integer-part">
-						10					</span>
+						100					</span>
 				
 				
 				
@@ -1184,7 +1262,7 @@ var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":
 				</div>
 		
 
-<div class="joinchat joinchat--right joinchat--dark joinchat--btn" data-settings='{"telephone":"212667466394","mobile_only":false,"button_delay":3,"whatsapp_web":true,"qr":false,"message_views":2,"message_delay":10,"message_badge":false,"message_send":"","message_hash":""}'>
+<div class="joinchat joinchat--right joinchat--dark joinchat--btn" data-settings='{"telephone":"212645047524","mobile_only":false,"button_delay":3,"whatsapp_web":true,"qr":false,"message_views":2,"message_delay":10,"message_badge":false,"message_send":"","message_hash":""}'>
 	<div class="joinchat__button">
 		<div class="joinchat__button__open"></div>
 									</div>
@@ -1217,18 +1295,9 @@ var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":
 			</script>
 				<script>
 		(function () {
-			var c = document.body.className;
-			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
-			document.body.className = c;
-		})();
-	</script>
-	<link rel='stylesheet' id='wc-blocks-style-css' href='https://demo1.naas-templates.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-9.3.2' media='all' />
-<link rel='stylesheet' id='widget-image-css' href='https://demo1.naas-templates.com/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.24.3' media='all' />
-<link rel='stylesheet' id='widget-icon-list-css' href='https://demo1.naas-templates.com/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.24.3' media='all' />
-<link rel='stylesheet' id='widget-social-icons-css' href='https://demo1.naas-templates.com/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=3.24.3' media='all' />
-<link rel='stylesheet' id='e-apple-webkit-css' href='https://demo1.naas-templates.com/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css?ver=3.24.3' media='all' />
-<script src="https://demo1.naas-templates.com/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js?ver=3.0.1" id="hello-theme-frontend-js"></script>
-<script src="https://demo1.naas-templates.com/wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-script.js?ver=3.1.3" id="elementskit-framework-js-frontend-js"></script>
+			var c = document.bod<span class="elementor-price-table__currency">$</span>9
+<div class="elementor-price-table__currency">$</span> <span class="elementor-price-table__integer-part">80</span>
+<h4 class="elementor-price-table__heading">3 Months</h4> <!-- Unchanged -->	mplates.com/wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-script.js?ver=3.1.3" id="elementskit-framework-js-frontend-js"></script>
 <script id="elementskit-framework-js-frontend-js-after">
 		var elementskit = {
 			resturl: 'https://demo1.naas-templates.com/wp-json/elementskit/v1/',
@@ -1273,8 +1342,36 @@ var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false
 <script id="elementskit-elementor-js-extra">
 var ekit_config = {"ajaxurl":"https:\/\/demo1.naas-templates.com\/wp-admin\/admin-ajax.php","nonce":"1c7d9cfe15"};
 </script>
-<script src="https://demo1.naas-templates.com/wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementor.js?ver=3.1.3" id="elementskit-elementor-js"></script>
 
+<script src="https://demo1.naas-templates.com/wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementor.js?ver=3.1.3" id="elementskit-elementor-js"></script>
+<script>
+	function updatePrices() {
+	  document.querySelectorAll('[class*="price"], [class*="currency"]').forEach(priceElement => {
+		priceElement.childNodes.forEach(node => {
+		  if (node.nodeType === 3 && node.nodeValue.trim() !== "") {  
+			let text = node.nodeValue;
+  
+			// Avoid changing numbers if the text contains "Month", "Year", "Day"
+			if (!text.match(/\b(Month|Year|Day)s?\b/i)) {
+			  text = text.replace(/(\d+)/g, (match) => {
+				return Math.round(parseInt(match) * 0); // Reduce price by 20%
+			  });
+			}
+  
+			node.nodeValue = text;
+		  }
+		});
+	  });
+	}
+  
+	document.addEventListener("DOMContentLoaded", updatePrices);
+  </script>
+  
+  
+  
+  
+  
+  
 </body>
 </html>
 
